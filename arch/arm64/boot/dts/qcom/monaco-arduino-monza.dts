@@ -168,7 +168,7 @@
 };
 
 &ethernet0 {
-	phy-mode = "sgmii"; /* Should be phy-mode = "2500base-x", but cf https://lists.infradead.org/pipermail/linux-arm-kernel/2025-November/1077340.html */
+	phy-mode = "2500base-x"; /* Should be phy-mode = "2500base-x", but cf https://lists.infradead.org/pipermail/linux-arm-kernel/2025-November/1077340.html */
 	phy-handle = <&hsgmii_phy0>;
 
 	pinctrl-0 = <&ethernet0_default>;
